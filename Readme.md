@@ -129,6 +129,12 @@ This will interpolate the format string with the value of methods `name.lastName
   * ethereumAddress
   * iban
   * bic
+* git
+  * branch
+  * commitEntry
+  * commitMessage
+  * commitSha
+  * shortSha
 * hacker
   * abbreviation
   * adjective
@@ -147,6 +153,8 @@ This will interpolate the format string with the value of methods `name.lastName
   * contextualCard
   * userCard
   * createTransaction
+* hotel
+  *types
 * image
   * image
   * avatar
@@ -230,7 +238,18 @@ This will interpolate the format string with the value of methods `name.lastName
   * directoryPath
   * filePath
   * semver
-
+* time
+  * recent
+* unique
+* vehicle
+  * vehicle
+  * manufacturer
+  * model
+  * type
+  * fuel
+  * vin
+  * color
+  * vrm
 
 ## Localization
 
