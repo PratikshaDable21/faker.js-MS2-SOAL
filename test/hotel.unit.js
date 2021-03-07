@@ -8,10 +8,10 @@ if (typeof module !== 'undefined') {
     describe("hotel()", function () {
         it("returns a random hotel", function () {
             sinon.stub(faker.hotel, 'hotel').returns('Marriott');
-            var hotel = faker.hotel.();
+            var hotel = faker.hotel.name();
   
-            assert.equal(vehicle, 'Marriott');
-            faker.hotel.restore();
+            assert.equal(hotel, 'Marriott');
+            faker.hotel.name.restore();
         });
     });
   
