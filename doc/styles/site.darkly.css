@@ -294,7 +294,7 @@ th {
 .glyphicon-glass:before {
   content: "\e001";
 }
-.glyphicon-music:before {
+.glyphicon-hotel:before {
   content: "\e002";
 }
 .glyphicon-search:before {
@@ -6864,6 +6864,9 @@ input:focus,
 textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+.form-control-feedback {
+  color: #464545;
 }
 .has-warning .help-block,
 .has-warning .control-label,
