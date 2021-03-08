@@ -154,9 +154,7 @@ This will interpolate the format string with the value of methods `name.lastName
   * userCard
   * createTransaction
 * hotel
-  * Name
-  * Address
-  * typeofstay
+  * Types
 * image
   * image
   * avatar
